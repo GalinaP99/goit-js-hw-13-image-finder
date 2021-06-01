@@ -29,6 +29,22 @@ img {
   margin-bottom: 8px;
 }
 
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+/*.button.is-hidden,
+.spinner.is-hidden {
+  display: none;
+}*/
+.button.is-hidden,
+.is-hidden {
+  display: none;
+}
+
 .images {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
@@ -59,7 +75,7 @@ img {
 }
 
 .stats {
-  margin-top: 10px;
+  padding-top: 10px;
   display: flex;
   justify-content: center;
   margin: 0;

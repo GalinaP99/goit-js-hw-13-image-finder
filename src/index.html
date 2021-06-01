@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>image-finder</title>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   </head>
 
   <body>
@@ -15,7 +16,17 @@
     </form>
     <ul class="images js-images"></ul>
     <button type="button" class="btn btn-primary button is-hidden" data-action="load-more">
+      <span class="spinner-border spinner-border-sm spinner-hidden spinner is-hidden" role="status" aria-hidden="true"></span>
       <span class="label">Show more</span>
       </button>
+
+      <!--<button class="btn btn-primary" type="button" disabled>
+        Loading...
+      </button>
+
+      <div class="spinner-border spinner is-hidden text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>-->
+
   </body>
 </html>

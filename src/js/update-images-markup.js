@@ -1,8 +1,6 @@
 import imagesTpl from '../template/images.hbs';
-const refs = {
-    //searchForm: document.querySelector('.search-form'),
-    imagesContainer: document.querySelector('.js-images')
-}
+import refs from './refs';
+
 
 function updateImagesMarkup(hits) {
          const markup = imagesTpl(hits)
