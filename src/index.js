@@ -31,10 +31,7 @@ function fetchImages() {
             loadMoreBtn.enable();
        // refs.loadMoreBtn.classList.remove('is-hidden');
         })
-    refs.imagesContainer.scrollIntoView({
-  behavior: 'smooth',
-  block: 'end',
-});
+ 
        /* .finally(() => {
            refs.spinner.classList.add('is-hidden');
         });*/
